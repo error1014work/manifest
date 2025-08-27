@@ -5,10 +5,8 @@
  "url": "https://error1014work.github.io/manifest",
  "app_name": "myapp",
  "manifest_version": 1,
- "permissions": [
- {
+ "permissions": {
  "ton_addr": {}
- }
- ],
- "events": []
+ },
+ "events": {}
 }

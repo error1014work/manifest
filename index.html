@@ -1,1 +1,31 @@
 
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>TON Connect</title>
+ <script src="https://unpkg.com/@tonconnect/ui@latest/dist/tonconnect-ui.min.js"></script>
+</head>
+<body>
+ <h1>Подключение TON</h1>
+ <button id="connectButton">Подключить кошелёк</button>
+ <div id="walletInfo"></div>
+
+ <script>
+ const connector = new TonConnect.UI.TonConnectUI({
+ manifestUrl: "https://error1014work.github.io/manifest/manifest.json"
+ });
+
+ document.getElementById("connectButton").onclick = async () => {
+ try {
+ const wallet = await connector.connect();
+ document.getElementById("walletInfo").innerHTML = 
+ `Подключено: ${wallet.account.address}`;
+ } catch (err) {
+ document.getElementById("walletInfo").innerHTML = `Ошибка: ${err.message}`;
+ }
+ };
+ </script>
+</body>
+</html>

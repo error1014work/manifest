@@ -1,0 +1,8 @@
+{
+  "name": "Мое приложение",
+  "icon": "https://ваш-сайт.com/icon.png",
+  "description": "Приложение для работы с TON",
+  "url": "https://ваш-сайт.com",
+  "app_name": "myapp",
+  "manifest_version": 1
+}

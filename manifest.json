@@ -1,8 +1,8 @@
 {
-  "name": "Мое приложение",
-  "icon": "https://ваш-сайт.com/icon.png",
+  "name": "ton_connect_test001",
+  "icon": "https://error1014work.github.io/manifest/icon.png",
   "description": "Приложение для работы с TON",
-  "url": "https://ваш-сайт.com",
+  "url": "https://error1014work.github.io/manifest",
   "app_name": "myapp",
   "manifest_version": 1
 }

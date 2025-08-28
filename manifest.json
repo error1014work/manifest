@@ -8,5 +8,15 @@
  "permissions": {
  "ton_addr": {}
  },
- "events": {}
+ "events": {},
+ "bridge": [
+ {
+ "type": "sse",
+ "url": "https://ton-bridge.dev.ton.org/bridge"
+ },
+ {
+ "type": "sse",
+ "url": "https://tonconnect.github.io/tonconnect-bridge/bridge"
+ }
+ ]
 }

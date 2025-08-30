@@ -1,22 +1,5 @@
 {
  "name": "ton_connect_test001",
- "icon": "https://error1014work.github.io/manifest/icon.png",
- "description": "Приложение для работы с TON",
+ "iconUrl": "https://error1014work.github.io/manifest/icon.png",
  "url": "https://error1014work.github.io/manifest",
- "app_name": "myapp",
- "manifest_version": 1,
- "permissions": {
- "ton_addr": {}
- },
- "events": {},
- "bridge": [
- {
- "type": "sse",
- "url": "https://ton-bridge.dev.ton.org/bridge"
- },
- {
- "type": "sse",
- "url": "https://tonconnect.github.io/tonconnect-bridge/bridge"
- }
- ]
 }
